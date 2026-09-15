@@ -1,0 +1,5 @@
+1. GitHub deposuna index.html, gunbatimi.jpg, flatcast-gunbatimi.png ve vuslat-logo.png dosyalarini birlikte yukleyin.
+2. Pages yayini tamamlaninca https://vuslatvakti.github.io/vuslat-vakti/flatcast-gunbatimi.png adresini acip koyu panelli gorselin geldigini kontrol edin.
+3. Flatcast tema editorunde vuslat-gunbatimi.fcx dosyasini yukleyin, sahneye uygulayin ve kaydedin.
+4. fm.tc gommek icin kullandiginiz calisan koda dokunmayin.
+Bakim duyurusu korunmustur. Bu tema misafirlerin renk secme yetkisini degistirmez. Koyu alanlar resmin kendisindedir.

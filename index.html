@@ -23,7 +23,7 @@
 <style>.brand-logo{width:64px;height:64px;border-radius:12px;object-fit:contain}.main-logo-panel{overflow:hidden;border-radius:24px;background:#021127;box-shadow:0 16px 36px #142b3715}.main-logo{display:block;width:100%;height:auto}@media(max-width:640px){.main-logo-panel{max-width:380px;width:100%;margin:auto}.brand-logo{width:54px;height:54px}}</style>
 
 <style id="bekleyis-background-theme">
-:root{--paper:#121419;--ink:#f0ece8;--muted:#c3c6cf;--blue:#b5cde7;--accent:#283547;--line:#ffffff29;--white:#fff;--site-background:url('medya-4bbb515226.png')}
+:root{--paper:#121419;--ink:#f0ece8;--muted:#c3c6cf;--blue:#b5cde7;--accent:#283547;--line:#ffffff29;--white:#fff;--site-background:url('gunbatimi.jpg')}
 body{background:#121419;isolation:isolate}
 body:before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background-image:linear-gradient(90deg,rgba(9,13,20,.79),rgba(9,13,20,.48) 55%,rgba(9,13,20,.68)),var(--site-background);background-size:cover;background-position:center;background-repeat:no-repeat}
 .button{background:#754454;color:#fff}.button:hover{background:#925569}
@@ -69,6 +69,15 @@ body:before{position:absolute;min-height:100%;background-attachment:scroll}
 .vuslat-logo-panel{width:100%;max-width:490px;margin:auto;filter:drop-shadow(0 16px 25px #0004)}
 .vuslat-hero-logo{display:block;width:100%;height:auto;border-radius:50%}
 @media(max-width:640px){.vuslat-brand-logo{width:52px;height:52px}.vuslat-logo-panel{max-width:340px}}
+</style><style id="sunset-site-theme">
+:root{--paper:#160f0c;--ink:#fff2df;--muted:#ddc9b1;--blue:#efbb7f;--accent:#674125;--line:#e6b68133;--site-background:url('gunbatimi.jpg')}
+body{background:#160f0c}body:before{background-image:linear-gradient(90deg,#140d0be0,#1b110b85 60%,#1b110b75),url('gunbatimi.jpg')}
+.player,.community,.dj-card{background:#20160feF!important;border-color:#d7a36540}
+.button,.button:hover{background:#95572f;color:#fff6e8}.button:hover{filter:brightness(1.15)}
+.player-top small,.player-help,.community p,.community li{color:#dfceb9}
+.welcome,footer,.schedule{background:#1a120d9c}.avatar,.mark{background:#654323;color:#ffedd4}
+.floating-heart,.cursor-spark{color:#e8b77e}.shooting-star{background:linear-gradient(90deg,transparent,#ffe1ae)}.shooting-star:after{color:#ffe1ae}
+.decoration-controls button,#ambient-toggle{background:#2a1d14;color:#fff0db}.player-frame{background:#100e0c}
 </style></head>
 <body><div id="site-content" style="display:flow-root;width:100%;">
 
@@ -202,7 +211,7 @@ body:before{position:absolute;min-height:100%;background-attachment:scroll}
 #ambient-toggle{position:relative;z-index:7;margin:0 0 20px;padding:10px 16px;border:1px solid #ffffff40;border-radius:24px;background:#152130;color:white}
 @media(prefers-reduced-motion:reduce){#ambient-video{display:none}}
 </style>
-<video id="ambient-video" muted="" autoplay="" loop="" playsinline="" preload="metadata" aria-hidden="true" style="inset: 0vh auto auto 0vw; width: 100vw; height: 100vh; object-fit: cover;" src="medya-13bb6b1fb2.mp4"></video>
+<video id="ambient-video" muted="" autoplay="" loop="" playsinline="" preload="metadata" aria-hidden="true" style="inset: 0vh auto auto 0vw; width: 100vw; height: 100vh; object-fit: cover;" ></video>
 <div class="wrap"><button id="ambient-toggle" type="button" hidden="">Video efektini durdur</button></div>
 <script id="ambient-script">
 (()=>{const v=document.getElementById('ambient-video'),b=document.getElementById('ambient-toggle'),m=matchMedia('(prefers-reduced-motion: reduce)');if(!v.getAttribute('src'))return;v.muted=true;let paused=false;b.hidden=false;function update(){v.hidden=m.matches;if(m.matches||paused){v.pause();b.textContent='Video efektini oynat'}else{v.play().then(()=>b.textContent='Video efektini durdur').catch(()=>{b.textContent='Video efektini oynat';paused=true})}}b.onclick=()=>{paused=!paused;update()};m.addEventListener('change',update);update()})();
