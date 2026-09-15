@@ -5,6 +5,17 @@
   
   <title>Vuslat Vakti — Müziğin kalbi burada</title>
   <meta name="description" content="Vuslat Vakti: Güzel şarkılar, içten sohbetler. Radyomuza hoş geldiniz.">
+  
+  <!-- KORUMA: Metin seçmeyi ve kopyalamayı CSS ile engelle -->
+  <style>
+    body {
+      -webkit-user-select: none; /* Safari */
+      -moz-user-select: none;    /* Firefox */
+      -ms-user-select: none;     /* IE/Edge */
+      user-select: none;         /* Standart */
+    }
+  </style>
+
   <style>
     :root{--paper:#f5f4ef;--ink:#182e3a;--muted:#536976;--blue:#145e7b;--accent:#cbe9ed;--line:#d7dedd;--white:#fff;--radius:24px}
     *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:24px}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Segoe UI",Arial,sans-serif;line-height:1.6}a{color:inherit}button,a{-webkit-tap-highlight-color:transparent}a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #c78020;outline-offset:5px}button{font:inherit;cursor:pointer}img{max-width:100%}[hidden]{display:none!important}.wrap{max-width:1200px;margin:auto;padding:0 32px}.skip{position:absolute;left:12px;top:-100px;padding:12px;background:white;z-index:20}.skip:focus{top:12px}
@@ -185,6 +196,23 @@ body:before{position:absolute;min-height:100%;background-attachment:scroll}
 <div class="wrap"><button id="ambient-toggle" type="button" hidden="">Video efektini durdur</button></div>
 <script id="ambient-script">
 (()=>{const v=document.getElementById('ambient-video'),b=document.getElementById('ambient-toggle'),m=matchMedia('(prefers-reduced-motion: reduce)');if(!v.getAttribute('src'))return;v.muted=true;let paused=false;b.hidden=false;function update(){v.hidden=m.matches;if(m.matches||paused){v.pause();b.textContent='Video efektini oynat'}else{v.play().then(()=>b.textContent='Video efektini durdur').catch(()=>{b.textContent='Video efektini oynat';paused=true})}}b.onclick=()=>{paused=!paused;update()};m.addEventListener('change',update);update()})();
+</script>
+
+<!-- KORUMA: Sağ tık ve klavye kısayollarını engelleyen JavaScript -->
+<script>
+  document.addEventListener('contextmenu', event => event.preventDefault());
+  document.addEventListener('keydown', event => {
+    if (
+      event.key === 'F12' ||
+      (event.ctrlKey && event.shiftKey && (event.key === 'I' || event.key === 'J' || event.key === 'C')) ||
+      (event.ctrlKey && (event.key === 'u' || event.key === 's' || event.key === 'a'))
+    ) {
+      event.preventDefault();
+      alert('Bu sitede içerik kopyalamak ve kaynak görüntülemek yasaktır!');
+    }
+  });
+  document.addEventListener('selectstart', event => event.preventDefault());
+  document.addEventListener('dragstart', event.preventDefault());
 </script>
 
 <script type="application/json" id="editor-state">{"ink":"#f0ece8","muted":"#c3c6cf","blue":"#b5cde7","buttonColor":"#754454","panel":"#17202b","shade":"60","height":"650"}</script></div><script id="vuslat-auto-height">(() => {
