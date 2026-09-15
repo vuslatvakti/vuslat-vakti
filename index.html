@@ -59,7 +59,12 @@ footer{background:#10162065;padding-left:16px;padding-right:16px}
 <style>
 .vuslat-art{min-height:410px;border-radius:180px 180px 24px 24px;border:1px solid #b5cde740;background:radial-gradient(ellipse at 65% 20%,#749eb333,transparent 55%),linear-gradient(150deg,#111f30ed,#09121bee);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:32px;box-shadow:0 20px 60px #0002}
 .vuslat-moon{font:65px Georgia,serif;color:#c1d3e1;line-height:1}.vuslat-art-name{font:62px/1.05 Georgia,serif;color:#edf1f4;margin:14px 0 24px}.vuslat-art-name em{color:#b5cde7;font-weight:400}.vuslat-art-note{font-size:10px;letter-spacing:3px;color:#c4ccd4}.dj-grid{grid-template-columns:1fr}.dj-card{max-width:100%}@media(max-width:640px){.vuslat-art{min-height:310px}.vuslat-art-name{font-size:48px}}
-</style><style>.player-help{padding:14px 22px;margin:0;color:#c4d2df;font-size:12px}</style></head>
+</style><style>.player-help{padding:14px 22px;margin:0;color:#c4d2df;font-size:12px}</style><style id="responsive-flatcast">
+.player-frame{position:relative;width:100%;aspect-ratio:4/3;overflow:hidden;background:#091323}
+.player-frame iframe{position:absolute;left:0;top:0;width:800px!important;height:600px!important;max-width:none!important;transform-origin:0 0;border:0}
+body:before{position:absolute;min-height:100%;background-attachment:scroll}
+@media(max-width:640px){.hero{grid-template-columns:1fr}.player-top{padding:16px}.player-help{padding:12px;font-size:12px}.player{border-radius:14px}}
+</style></head>
 <body><div id="site-content" style="display:flow-root;width:100%;">
 
 <a href="#icerik" class="skip">İçeriğe geç</a>
@@ -227,4 +232,6 @@ footer{background:#10162065;padding-left:16px;padding-right:16px}
   document.fonts?.ready.then(schedule);
   // On load the parent requests the first measurement; subsequent changes are observed.
 })();
+</script><script id="flatcast-fit">
+(()=>{const box=document.querySelector('.player-frame'),frame=box?.querySelector('iframe');if(!frame)return;function fit(){const width=box.getBoundingClientRect().width;frame.style.transform='scale('+(width/800)+')';box.style.height=(width*600/800)+'px'}new ResizeObserver(fit).observe(box);window.addEventListener('resize',fit);fit()})();
 </script></body></html>

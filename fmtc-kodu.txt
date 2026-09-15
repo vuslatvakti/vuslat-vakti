@@ -1,0 +1,30 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html,body{margin:0;background:#091323;}
+#vuslat-site{display:block;width:100%;height:900px;border:0;}
+</style>
+<iframe id="vuslat-site" src="https://vuslatvakti.github.io/vuslat-vakti/?v=mobile-fit-3" title="Vuslat Vakti" width="100%" height="900" frameborder="0" allow="autoplay; fullscreen"></iframe>
+<script>
+(function(){
+  var viewports=document.querySelectorAll('meta[name="viewport"]');
+  for(var i=0;i<viewports.length;i++)viewports[i].setAttribute('content','width=device-width, initial-scale=1');
+  if(!viewports.length){var meta=document.createElement('meta');meta.name='viewport';meta.content='width=device-width, initial-scale=1';document.head.appendChild(meta);}
+  var frame=document.getElementById('vuslat-site');
+  var origin='https://vuslatvakti.github.io';
+  function measure(){frame.contentWindow.postMessage({type:'vuslat:measure'},origin);}
+  window.addEventListener('message',function(event){
+    if(event.origin!==origin || event.source!==frame.contentWindow) return;
+    var data=event.data;
+    if(!data || data.type!=='vuslat:height' || typeof data.height!=='number' || !isFinite(data.height)) return;
+    if(data.height<100 || data.height>50000) return;
+    var height=Math.ceil(data.height);
+    if(frame.getAttribute('height')!==String(height)){
+      frame.style.height=height+'px';
+      frame.setAttribute('height',String(height));
+    }
+  });
+  frame.addEventListener('load',measure);
+  window.addEventListener('resize',measure);
+  measure();
+})();
+</script>
