@@ -1,6 +1,5 @@
 window.VUSLAT_RADIO_CONFIG = {
-  // Cloudflare kurulumundan sonra gerçek Worker adresini buraya yazın.
-  statusUrl: "",
+  statusUrl: "https://vuslat-yayin-durumu.vuslatvakti2505.workers.dev/",
   jingleUrl: "vuslat-cingil.mp4",
   pollMs: 30000
 };
