@@ -1,0 +1,43 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html,body{margin:0;background:#091323;}
+#vuslat-site{display:block;width:100%;height:900px;border:0;}
+</style>
+<iframe id="vuslat-site" src="https://vuslatvakti.github.io/vuslat-vakti/?v=mobile-fit-4" title="Vuslat Vakti" width="100%" height="900" frameborder="0" allow="autoplay; fullscreen"></iframe>
+<script>
+(function(){
+  var metas=document.getElementsByName("viewport");
+  if(!metas.length){
+    var meta=document.createElement("meta");
+    meta.name="viewport";
+    document.head.appendChild(meta);
+    metas=document.getElementsByName("viewport");
+  }
+  for(var i=0;i<metas.length;i++){
+    metas[i].setAttribute("content","width=device-width, initial-scale=1");
+  }
+  var frame=document.getElementById("vuslat-site");
+  var origin="https://vuslatvakti.github.io";
+  function viewport(){frame.contentWindow.postMessage({type:"vuslat:viewport",height:window.innerHeight,top:Math.max(0,-frame.getBoundingClientRect().top)},origin);}
+  window.addEventListener("scroll",viewport,{passive:true});
+  function measure(){viewport();
+    frame.contentWindow.postMessage({type:"vuslat:measure"},origin);
+  }
+  window.addEventListener("message",function(event){
+    if(event.origin!==origin || event.source!==frame.contentWindow)return;
+    var data=event.data;
+    if(!data || data.type!=="vuslat:height")return;
+    if(typeof data.height!=="number" || !isFinite(data.height))return;
+    if(data.height<100 || data.height>50000)return;
+    viewport();
+    var h=Math.ceil(data.height);
+    if(frame.getAttribute("height")!==String(h)){
+      frame.style.height=h+"px";
+      frame.setAttribute("height",String(h));
+    }
+  });
+  frame.addEventListener("load",measure);
+  window.addEventListener("resize",measure);
+  measure();
+})();
+</script>

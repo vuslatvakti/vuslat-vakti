@@ -1,22 +1,31 @@
-VUSLAT VAKTİ — ALTI VİDEOLU TEMA
-ZIP dosyasını çıkarın. tema-paneli.html dosyasını açın.
-1 / 1v: Deniz
-2 / 2v: Sonbahar Gölü
-3 / 3v: Ayçiçeği
-4 / 4v: Buğday
-5 / 5v: Rüzgâr
-6 / 6v: Galaksi
-Her fotoğrafın üzerine aynı numaralı video yüzde 58 opaklıkta ve kademeli bir maskeyle yerleştirildi. Fotoğraf sabittir. Hareketi durdur düğmesi vardır.
-Panelde temayı seçip telefon/bilgisayar ön izlemesini inceleyin. Ön izleme canlı radyoya bağlanmaz.
+VUSLAT — OTOMATİK YAYIN DURUMU
+Bu paket mevcut altı videolu tema sitesine eklenir. temalar klasörünü, temalar.js ve aktif-tema.js dosyalarını koruyun.
 
-YÜKLEME
-Mevcut deponun yedeğini alın. Paketin içeriğini temalar klasörüyle birlikte GitHub deposunun köküne yükleyin. ZIP dosyasının kendisini yüklemeyin.
-Flatcast görseli yayınlandıktan sonra panelde Flatcast temasını indir düğmesinden ilgili FCX dosyasını alın, Flatcast'te içe aktarın ve kaydedin.
-Site temasını değiştirmek için panelden aktif-tema.js indirin ve GitHub'daki aynı dosyanın yerine yükleyin.
-fm.tc gömme kodu değişmez. SID 2046, Flatcast 1200x700.
+1. CLOUDFLARE
+Cloudflare hesabında bir Worker oluşturun. cloudflare-worker.mjs içeriğini Worker kod alanına koyup yayınlayın.
+Verilen HTTPS Worker adresini tarayıcıda açın. Başarılı sonuç is_live:0 veya is_live:1 olmalıdır.
+502 / status_unavailable gelirse otomatik bağlantı henüz çalışmıyordur; siteye yayına alma adımına geçmeyin.
+Worker yalnızca SID 2046'nın durumunu okur, kullanıcı bilgilerini iletmez. GitHub Pages ve fm.tc originlerine izinlidir. Bir genel proxy değildir.
 
-FONT
-Başlık ve düğme yazıları Georgia/serif italik olarak görsele işlendi. Canlı yazılar için FCX'e font_family ve font_style tercihleri eklendi; oynatıcı bunları desteklemiyorsa canlı sohbetin fontu değişmeyebilir. Canlı içe aktarma testi yapılmadı.
-Düğmeler yukarıda, sohbet ve misafir alanları genişletilmiş durumda. Çalan parça adı gizli.
-Video yalnızca site arka planında çalışır; FCX içindeki arka plan sabit görseldir.
-Otomatik etkinleştirme bağlantısı henüz kurulmadı. Canlı site değiştirilmedi.
+2. AYAR
+Worker adresini yayin-ayar.js içindeki statusUrl alanına yazın.
+Cıngıl dosyasının adını vuslat-cingil.mp4 yapın. MP3 kullanacaksanız jingleUrl değerini vuslat-cingil.mp3 yapın ve dosyayı aynı adla yükleyin. Uzantıyı değiştirmek dosya formatını dönüştürmez.
+
+3. GITHUB
+index.html, onizleme.html, tema-uygula.js, yayin-ayar.js, yayin-bekleme.js, tema-paneli.html ve tema-yayinla.js dosyalarını depo köküne yükleyin. Cıngıl dosyasını da köke ekleyin.
+cloudflare-worker.mjs yalnızca Cloudflare içindir; GitHub'a yüklemek Worker'ı çalıştırmaz.
+
+4. FM.TC KADRAJ
+fmtc-gomme-kodu.txt içeriğini fm.tc editöründeki gömme kodunun yerine koyun. Tek tırnak kullanmayın.
+Bu kod dış ekranın yüksekliğini ve kaydırmasını siteye bildirir. Arka planın tüm uzun iframe'e göre büyüyüp aşırı kırpılmasını azaltır.
+
+ÇALIŞMA
+Yayın durumu her 30 saniyede kontrol edilir. is_live=0 ise iframe kaldırılır, videolu bekleme alanı görünür. Dinleyici cıngıl düğmesine basınca ses döngülü çalar.
+is_live=1 gelirse önce cıngıl durdurulur, sonra Flatcast yüklenir. Canlı yayın sesinin başlaması Flatcast ve tarayıcı kurallarına bağlıdır.
+Sorgu hatasında cıngıl durur ve Flatcast gösterilir. Worker adresi yoksa mevcut Flatcast görünümü korunur; otomatik durum çalışmaz.
+Video bekleme kartı ve site arka planında oynar. Canlı Flatcast'in kendi iç temasına video eklenmedi.
+Bekleme ön izlemesi: onizleme.html?tema=deniz&bekleme=1
+
+TEST
+Sahte API yanıtlarıyla offline/live, cıngıl durdurma, sorgu hatası ve Worker cevap doğrulaması test edildi.
+Gerçek Cloudflare dağıtımı ve canlı Flatcast geçişi henüz test edilmedi. Cıngıl dosyası kullanıcı tarafından sağlanacak.
