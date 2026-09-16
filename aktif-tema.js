@@ -1,1 +1,1 @@
-window.VUSLAT_ACTIVE_THEME="sonbahar";
+window.VUSLAT_ACTIVE_THEME="aycicegi";
