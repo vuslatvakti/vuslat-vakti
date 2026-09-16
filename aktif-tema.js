@@ -1,0 +1,1 @@
+window.VUSLAT_ACTIVE_THEME="deniz";

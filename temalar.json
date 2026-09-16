@@ -1,0 +1,74 @@
+[
+  {
+    "id": "deniz",
+    "name": "Deniz",
+    "base": "#102c3d",
+    "accent": "#8ad9e8",
+    "panel": "#102c3ded",
+    "bg": "temalar/deniz/site.jpg",
+    "fcx": "temalar/deniz/vuslat-deniz.fcx",
+    "radio": "temalar/deniz/flatcast.jpg",
+    "source": 1,
+    "video": "temalar/deniz/video.mp4"
+  },
+  {
+    "id": "sonbahar",
+    "name": "Sonbahar Gölü",
+    "base": "#302419",
+    "accent": "#efbf7e",
+    "panel": "#302419ed",
+    "bg": "temalar/sonbahar/site.jpg",
+    "fcx": "temalar/sonbahar/vuslat-sonbahar.fcx",
+    "radio": "temalar/sonbahar/flatcast.jpg",
+    "source": 2,
+    "video": "temalar/sonbahar/video.mp4"
+  },
+  {
+    "id": "aycicegi",
+    "name": "Ayçiçeği",
+    "base": "#272b19",
+    "accent": "#f5d773",
+    "panel": "#272b19ed",
+    "bg": "temalar/aycicegi/site.jpg",
+    "fcx": "temalar/aycicegi/vuslat-aycicegi.fcx",
+    "radio": "temalar/aycicegi/flatcast.jpg",
+    "source": 3,
+    "video": "temalar/aycicegi/video.mp4"
+  },
+  {
+    "id": "bugday",
+    "name": "Buğday",
+    "base": "#30271c",
+    "accent": "#efd3a0",
+    "panel": "#30271ced",
+    "bg": "temalar/bugday/site.jpg",
+    "fcx": "temalar/bugday/vuslat-bugday.fcx",
+    "radio": "temalar/bugday/flatcast.jpg",
+    "source": 4,
+    "video": "temalar/bugday/video.mp4"
+  },
+  {
+    "id": "ruzgar",
+    "name": "Rüzgâr",
+    "base": "#172e28",
+    "accent": "#b7d7ad",
+    "panel": "#172e28ed",
+    "bg": "temalar/ruzgar/site.jpg",
+    "fcx": "temalar/ruzgar/vuslat-ruzgar.fcx",
+    "radio": "temalar/ruzgar/flatcast.jpg",
+    "source": 5,
+    "video": "temalar/ruzgar/video.mp4"
+  },
+  {
+    "id": "galaksi",
+    "name": "Galaksi",
+    "base": "#191b39",
+    "accent": "#bbbcff",
+    "panel": "#191b39ed",
+    "bg": "temalar/galaksi/site.jpg",
+    "fcx": "temalar/galaksi/vuslat-galaksi.fcx",
+    "radio": "temalar/galaksi/flatcast.jpg",
+    "source": 6,
+    "video": "temalar/galaksi/video.mp4"
+  }
+]

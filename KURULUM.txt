@@ -1,5 +1,22 @@
-1. GitHub deposuna index.html, gunbatimi.jpg, flatcast-gunbatimi.png ve vuslat-logo.png dosyalarini birlikte yukleyin.
-2. Pages yayini tamamlaninca https://vuslatvakti.github.io/vuslat-vakti/flatcast-gunbatimi.png adresini acip koyu panelli gorselin geldigini kontrol edin.
-3. Flatcast tema editorunde vuslat-gunbatimi.fcx dosyasini yukleyin, sahneye uygulayin ve kaydedin.
-4. fm.tc gommek icin kullandiginiz calisan koda dokunmayin.
-Bakim duyurusu korunmustur. Bu tema misafirlerin renk secme yetkisini degistirmez. Koyu alanlar resmin kendisindedir.
+VUSLAT VAKTİ — ALTI VİDEOLU TEMA
+ZIP dosyasını çıkarın. tema-paneli.html dosyasını açın.
+1 / 1v: Deniz
+2 / 2v: Sonbahar Gölü
+3 / 3v: Ayçiçeği
+4 / 4v: Buğday
+5 / 5v: Rüzgâr
+6 / 6v: Galaksi
+Her fotoğrafın üzerine aynı numaralı video yüzde 58 opaklıkta ve kademeli bir maskeyle yerleştirildi. Fotoğraf sabittir. Hareketi durdur düğmesi vardır.
+Panelde temayı seçip telefon/bilgisayar ön izlemesini inceleyin. Ön izleme canlı radyoya bağlanmaz.
+
+YÜKLEME
+Mevcut deponun yedeğini alın. Paketin içeriğini temalar klasörüyle birlikte GitHub deposunun köküne yükleyin. ZIP dosyasının kendisini yüklemeyin.
+Flatcast görseli yayınlandıktan sonra panelde Flatcast temasını indir düğmesinden ilgili FCX dosyasını alın, Flatcast'te içe aktarın ve kaydedin.
+Site temasını değiştirmek için panelden aktif-tema.js indirin ve GitHub'daki aynı dosyanın yerine yükleyin.
+fm.tc gömme kodu değişmez. SID 2046, Flatcast 1200x700.
+
+FONT
+Başlık ve düğme yazıları Georgia/serif italik olarak görsele işlendi. Canlı yazılar için FCX'e font_family ve font_style tercihleri eklendi; oynatıcı bunları desteklemiyorsa canlı sohbetin fontu değişmeyebilir. Canlı içe aktarma testi yapılmadı.
+Düğmeler yukarıda, sohbet ve misafir alanları genişletilmiş durumda. Çalan parça adı gizli.
+Video yalnızca site arka planında çalışır; FCX içindeki arka plan sabit görseldir.
+Otomatik etkinleştirme bağlantısı henüz kurulmadı. Canlı site değiştirilmedi.

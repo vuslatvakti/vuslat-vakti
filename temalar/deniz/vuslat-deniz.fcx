@@ -1,0 +1,722 @@
+{
+  "format": "FlatcastXTheme",
+  "extension": ".fcx",
+  "version": "1.3",
+  "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+  "name": "Vuslat Vakti • Deniz • Video uyumlu",
+  "items": [
+    {
+      "key": "stage_background",
+      "type": "background",
+      "label": "Vuslat Vakti • Deniz • 1200×700",
+      "x": 0,
+      "y": 0,
+      "width": 1200,
+      "height": 700,
+      "z": 1,
+      "visible": 1,
+      "extra": {
+        "bg_url": "https://vuslatvakti.github.io/vuslat-vakti/temalar/deniz/flatcast.jpg",
+        "font_size": 19,
+        "color": "#fff5e6",
+        "base_width": 1200,
+        "base_height": 700,
+        "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+        "font_family": "Georgia",
+        "font_style": "italic"
+      }
+    },
+    {
+      "key": "chat_area",
+      "type": "box",
+      "label": "Sohbet Alanı",
+      "x": 399,
+      "y": 184,
+      "width": 776,
+      "height": 428,
+      "z": 5,
+      "visible": 1,
+      "extra": {
+        "font_size": 21,
+        "color": "#fff5e6",
+        "base_width": 1200,
+        "base_height": 700,
+        "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+        "font_family": "Georgia",
+        "font_style": "italic"
+      }
+    },
+    {
+      "key": "online_list",
+      "type": "box",
+      "label": "Online Listesi",
+      "x": 24,
+      "y": 183,
+      "width": 340,
+      "height": 429,
+      "z": 5,
+      "visible": 1,
+      "extra": {
+        "font_size": 21,
+        "color": "#fff5e6",
+        "base_width": 1200,
+        "base_height": 700,
+        "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+        "font_family": "Georgia",
+        "font_style": "italic"
+      }
+    },
+    {
+      "key": "btn_zoom_in",
+      "type": "button",
+      "label": "+",
+      "x": 618,
+      "y": 85,
+      "width": 86,
+      "height": 35,
+      "z": 100,
+      "visible": 1,
+      "extra": {
+        "font_size": 23,
+        "color": "#fff5e6",
+        "base_width": 1200,
+        "base_height": 700,
+        "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+        "font_family": "Georgia",
+        "font_style": "italic"
+      }
+    },
+    {
+      "key": "btn_zoom_out",
+      "type": "button",
+      "label": "−",
+      "x": 718,
+      "y": 85,
+      "width": 86,
+      "height": 35,
+      "z": 100,
+      "visible": 1,
+      "extra": {
+        "font_size": 23,
+        "color": "#fff5e6",
+        "base_width": 1200,
+        "base_height": 700,
+        "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+        "font_family": "Georgia",
+        "font_style": "italic"
+      }
+    },
+    {
+      "key": "btn_bold",
+      "type": "button",
+      "label": "B",
+      "x": 816,
+      "y": 85,
+      "width": 86,
+      "height": 35,
+      "z": 100,
+      "visible": 1,
+      "extra": {
+        "font_size": 23,
+        "color": "#fff5e6",
+        "base_width": 1200,
+        "base_height": 700,
+        "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+        "font_family": "Georgia",
+        "font_style": "italic"
+      }
+    },
+    {
+      "key": "btn_italic",
+      "type": "button",
+      "label": "İ",
+      "x": 914,
+      "y": 85,
+      "width": 86,
+      "height": 35,
+      "z": 100,
+      "visible": 1,
+      "extra": {
+        "font_size": 23,
+        "color": "#fff5e6",
+        "base_width": 1200,
+        "base_height": 700,
+        "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+        "font_family": "Georgia",
+        "font_style": "italic"
+      }
+    },
+    {
+      "key": "btn_color",
+      "type": "button",
+      "label": "Renk",
+      "x": 168,
+      "y": 85,
+      "width": 136,
+      "height": 35,
+      "z": 100,
+      "visible": 1,
+      "extra": {
+        "font_size": 16,
+        "color": "#fff5e6",
+        "base_width": 1200,
+        "base_height": 700,
+        "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+        "font_family": "Georgia",
+        "font_style": "italic"
+      }
+    },
+    {
+      "key": "btn_login",
+      "type": "button",
+      "label": "Giriş",
+      "x": 21,
+      "y": 85,
+      "width": 128,
+      "height": 35,
+      "z": 100,
+      "visible": 1,
+      "extra": {
+        "font_size": 14,
+        "color": "#fff5e6",
+        "base_width": 1200,
+        "base_height": 700,
+        "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+        "font_family": "Georgia",
+        "font_style": "italic"
+      }
+    },
+    {
+      "key": "btn_start_stop",
+      "type": "button",
+      "label": "Ses",
+      "x": 324,
+      "y": 85,
+      "width": 128,
+      "height": 35,
+      "z": 100,
+      "visible": 1,
+      "extra": {
+        "font_size": 16,
+        "color": "#fff5e6",
+        "base_width": 1200,
+        "base_height": 700,
+        "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+        "font_family": "Georgia",
+        "font_style": "italic"
+      }
+    },
+    {
+      "key": "btn_emoji",
+      "type": "button",
+      "label": "İfade",
+      "x": 471,
+      "y": 85,
+      "width": 128,
+      "height": 35,
+      "z": 100,
+      "visible": 1,
+      "extra": {
+        "font_size": 16,
+        "color": "#fff5e6",
+        "base_width": 1200,
+        "base_height": 700,
+        "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+        "font_family": "Georgia",
+        "font_style": "italic"
+      }
+    },
+    {
+      "key": "fx_vu_meter",
+      "type": "vu_meter",
+      "label": "Gerçek Zamanlı VU-Metre",
+      "x": 0,
+      "y": 66,
+      "width": 1200,
+      "height": 10,
+      "z": 19,
+      "visible": 1,
+      "extra": {
+        "font_size": 10,
+        "color": "#fff5e6",
+        "base_width": 1200,
+        "base_height": 700,
+        "segment_image_url": "",
+        "vu_mode": "original",
+        "orientation": "horizontal",
+        "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+        "font_family": "Georgia",
+        "font_style": "italic"
+      }
+    },
+    {
+      "key": "message_input",
+      "type": "input",
+      "label": "Mesaj yazın...",
+      "x": 420,
+      "y": 141,
+      "width": 702,
+      "height": 36,
+      "z": 20,
+      "visible": 1,
+      "extra": {
+        "font_size": 20,
+        "color": "#ffffff",
+        "base_width": 1200,
+        "base_height": 700,
+        "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+        "background_color": "#102c3d",
+        "font_family": "Georgia",
+        "font_style": "italic"
+      }
+    },
+    {
+      "key": "online_count",
+      "type": "counter",
+      "label": "Online",
+      "x": 282,
+      "y": 146,
+      "width": 66,
+      "height": 28,
+      "z": 30,
+      "visible": 1,
+      "extra": {
+        "font_size": 16,
+        "color": "#fff5e6",
+        "base_width": 1200,
+        "base_height": 700,
+        "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+        "font_family": "Georgia",
+        "font_style": "italic"
+      }
+    },
+    {
+      "key": "total_listener_count",
+      "type": "counter",
+      "label": "Total",
+      "x": 261,
+      "y": 201,
+      "width": 90,
+      "height": 23,
+      "z": 30,
+      "visible": 0,
+      "extra": {
+        "font_size": 16,
+        "color": "#fff5e6",
+        "base_width": 1200,
+        "base_height": 700,
+        "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+        "font_family": "Georgia",
+        "font_style": "italic"
+      }
+    },
+    {
+      "key": "link_custom_1779941358107",
+      "type": "link",
+      "label": "",
+      "x": 690,
+      "y": 10,
+      "width": 440,
+      "height": 46,
+      "z": 51,
+      "visible": 0,
+      "extra": {
+        "font_size": 19,
+        "color": "#fff5e6",
+        "url": "/",
+        "base_width": 1200,
+        "base_height": 700,
+        "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+        "font_family": "Georgia",
+        "font_style": "italic"
+      }
+    },
+    {
+      "key": "fx_clock",
+      "type": "clock",
+      "label": "Saat",
+      "x": 30,
+      "y": 645,
+      "width": 98,
+      "height": 26,
+      "z": 76,
+      "visible": 1,
+      "extra": {
+        "font_size": 16,
+        "color": "#fff5e6",
+        "format": "HH:mm",
+        "base_width": 1200,
+        "base_height": 700,
+        "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+        "font_family": "Georgia",
+        "font_style": "italic"
+      }
+    },
+    {
+      "key": "fx_now_playing",
+      "type": "now_playing",
+      "label": "🎵 {song}",
+      "x": 54,
+      "y": 86,
+      "width": 626,
+      "height": 19,
+      "z": 79,
+      "visible": 0,
+      "extra": {
+        "font_size": 16,
+        "color": "#fff5e6",
+        "base_width": 1200,
+        "base_height": 700,
+        "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+        "font_family": "Georgia",
+        "font_style": "italic"
+      }
+    },
+    {
+      "key": "text_custom_1786970529191",
+      "type": "text",
+      "label": "Hoş geldin {nick} • Keyifli dinlemeler",
+      "x": 405,
+      "y": 644,
+      "width": 765,
+      "height": 28,
+      "z": 79,
+      "visible": 1,
+      "extra": {
+        "font_size": 16,
+        "color": "#fff5e6",
+        "base_width": 1200,
+        "base_height": 700,
+        "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+        "font_family": "Georgia",
+        "font_style": "italic"
+      }
+    },
+    {
+      "key": "fx_chat_save",
+      "type": "chat_save",
+      "label": "Kaydet",
+      "x": 1017,
+      "y": 85,
+      "width": 153,
+      "height": 35,
+      "z": 100,
+      "visible": 1,
+      "extra": {
+        "font_size": 15,
+        "color": "#fff5e6",
+        "base_width": 1200,
+        "base_height": 700,
+        "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+        "font_family": "Georgia",
+        "font_style": "italic"
+      }
+    },
+    {
+      "key": "fx_vu_meter_vertical",
+      "type": "vu_meter_vertical",
+      "label": "Dikey Ekolayzer",
+      "x": 1122,
+      "y": 245,
+      "width": 39,
+      "height": 210,
+      "z": 19,
+      "visible": 0,
+      "extra": {
+        "font_size": 12,
+        "color": "#fff5e6",
+        "orientation": "vertical",
+        "segment_image_url": "",
+        "vu_mode": "original",
+        "base_width": 1200,
+        "base_height": 700,
+        "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+        "font_family": "Georgia",
+        "font_style": "italic"
+      }
+    },
+    {
+      "key": "fx_date",
+      "type": "date",
+      "label": "Tarih",
+      "x": 142,
+      "y": 645,
+      "width": 210,
+      "height": 26,
+      "z": 77,
+      "visible": 1,
+      "extra": {
+        "font_size": 16,
+        "color": "#fff5e6",
+        "format": "dd.mm.yyyy",
+        "base_width": 1200,
+        "base_height": 700,
+        "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+        "font_family": "Georgia",
+        "font_style": "italic"
+      }
+    },
+    {
+      "key": "text_custom_vuslat_test02",
+      "type": "text",
+      "label": "VUSLAT VAKTİ — TEMA TESTİ",
+      "x": 34,
+      "y": 6,
+      "width": 1080,
+      "height": 42,
+      "z": 90,
+      "visible": 0,
+      "extra": {
+        "font_size": 30,
+        "color": "#fff5e6",
+        "base_width": 1200,
+        "base_height": 700,
+        "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+        "font_family": "Georgia",
+        "font_style": "italic"
+      }
+    },
+    {
+      "key": "text_custom_1789500000000",
+      "type": "text",
+      "label": "Giriş",
+      "x": 21,
+      "y": 135,
+      "width": 128,
+      "height": 35,
+      "z": 99,
+      "visible": 0,
+      "extra": {
+        "font_size": 23,
+        "color": "#fff5e6",
+        "base_width": 1200,
+        "base_height": 700,
+        "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+        "font_family": "Georgia",
+        "font_style": "italic"
+      }
+    },
+    {
+      "key": "text_custom_1789500000001",
+      "type": "text",
+      "label": "Renk",
+      "x": 168,
+      "y": 135,
+      "width": 136,
+      "height": 35,
+      "z": 99,
+      "visible": 0,
+      "extra": {
+        "font_size": 23,
+        "color": "#fff5e6",
+        "base_width": 1200,
+        "base_height": 700,
+        "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+        "font_family": "Georgia",
+        "font_style": "italic"
+      }
+    },
+    {
+      "key": "text_custom_1789500000002",
+      "type": "text",
+      "label": "Ses",
+      "x": 324,
+      "y": 135,
+      "width": 128,
+      "height": 35,
+      "z": 99,
+      "visible": 0,
+      "extra": {
+        "font_size": 23,
+        "color": "#fff5e6",
+        "base_width": 1200,
+        "base_height": 700,
+        "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+        "font_family": "Georgia",
+        "font_style": "italic"
+      }
+    },
+    {
+      "key": "text_custom_1789500000003",
+      "type": "text",
+      "label": "İfade",
+      "x": 471,
+      "y": 135,
+      "width": 128,
+      "height": 35,
+      "z": 99,
+      "visible": 0,
+      "extra": {
+        "font_size": 23,
+        "color": "#fff5e6",
+        "base_width": 1200,
+        "base_height": 700,
+        "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+        "font_family": "Georgia",
+        "font_style": "italic"
+      }
+    },
+    {
+      "key": "text_custom_1789500000004",
+      "type": "text",
+      "label": "+",
+      "x": 618,
+      "y": 135,
+      "width": 86,
+      "height": 35,
+      "z": 99,
+      "visible": 0,
+      "extra": {
+        "font_size": 28,
+        "color": "#fff5e6",
+        "base_width": 1200,
+        "base_height": 700,
+        "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+        "font_family": "Georgia",
+        "font_style": "italic"
+      }
+    },
+    {
+      "key": "text_custom_1789500000005",
+      "type": "text",
+      "label": "−",
+      "x": 718,
+      "y": 135,
+      "width": 86,
+      "height": 35,
+      "z": 99,
+      "visible": 0,
+      "extra": {
+        "font_size": 28,
+        "color": "#fff5e6",
+        "base_width": 1200,
+        "base_height": 700,
+        "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+        "font_family": "Georgia",
+        "font_style": "italic"
+      }
+    },
+    {
+      "key": "text_custom_1789500000006",
+      "type": "text",
+      "label": "B",
+      "x": 816,
+      "y": 135,
+      "width": 86,
+      "height": 35,
+      "z": 99,
+      "visible": 0,
+      "extra": {
+        "font_size": 28,
+        "color": "#fff5e6",
+        "base_width": 1200,
+        "base_height": 700,
+        "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+        "font_family": "Georgia",
+        "font_style": "italic"
+      }
+    },
+    {
+      "key": "text_custom_1789500000007",
+      "type": "text",
+      "label": "İ",
+      "x": 914,
+      "y": 135,
+      "width": 86,
+      "height": 35,
+      "z": 99,
+      "visible": 0,
+      "extra": {
+        "font_size": 28,
+        "color": "#fff5e6",
+        "base_width": 1200,
+        "base_height": 700,
+        "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+        "font_family": "Georgia",
+        "font_style": "italic"
+      }
+    },
+    {
+      "key": "text_custom_1789500000008",
+      "type": "text",
+      "label": "Kaydet",
+      "x": 1017,
+      "y": 135,
+      "width": 153,
+      "height": 35,
+      "z": 99,
+      "visible": 0,
+      "extra": {
+        "font_size": 23,
+        "color": "#fff5e6",
+        "base_width": 1200,
+        "base_height": 700,
+        "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+        "font_family": "Georgia",
+        "font_style": "italic"
+      }
+    },
+    {
+      "key": "text_custom_1789500000020",
+      "type": "text",
+      "label": "Misafirler",
+      "x": 24,
+      "y": 191,
+      "width": 210,
+      "height": 36,
+      "z": 50,
+      "visible": 0,
+      "extra": {
+        "font_size": 21,
+        "color": "#fff5e6",
+        "base_width": 1200,
+        "base_height": 700,
+        "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+        "font_family": "Georgia",
+        "font_style": "italic"
+      }
+    },
+    {
+      "key": "text_custom_1789500010000",
+      "type": "text",
+      "label": "Vuslat Vakti radyomuza hoş geldiniz! Şu an tema bakımı yapıyoruz.",
+      "x": 24,
+      "y": 6,
+      "width": 1152,
+      "height": 27,
+      "z": 120,
+      "visible": 0,
+      "extra": {
+        "font_size": 19,
+        "color": "#fff5e6",
+        "base_width": 1200,
+        "base_height": 700,
+        "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+        "font_family": "Georgia",
+        "font_style": "italic"
+      }
+    },
+    {
+      "key": "text_custom_1789500010001",
+      "type": "text",
+      "label": "Bu nedenle müzik yayınımız yok. Güzel şarkılarda yeniden buluşmak üzere!",
+      "x": 24,
+      "y": 34,
+      "width": 1152,
+      "height": 27,
+      "z": 120,
+      "visible": 0,
+      "extra": {
+        "font_size": 19,
+        "color": "#fff5e6",
+        "base_width": 1200,
+        "base_height": 700,
+        "theme_name": "Vuslat Vakti • Deniz • Video uyumlu",
+        "font_family": "Georgia",
+        "font_style": "italic"
+      }
+    }
+  ],
+  "exported_at": "2026-09-15T15:54:46.214Z",
+  "app": "FlatcastX"
+}
