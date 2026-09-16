@@ -18,6 +18,13 @@ document.addEventListener('DOMContentLoaded',()=>{
  const p=document.getElementById('radio-preview');if(p){p.src=t.radio;p.parentElement.style.height='auto';p.parentElement.style.aspectRatio='12/7'}
 });})();
 
-(()=>{const css=document.createElement('style');css.textContent=`#tema-fotograf,#tema-video,#tema-golge{position:absolute!important;top:var(--vv-scroll,0px)!important;bottom:auto!important;height:var(--vv-height,100vh)!important}#tema-fotograf{background-position:20% center!important}#tema-video{object-position:20% center!important;opacity:.44!important}`;document.head.append(css);
-const root=document.documentElement;function localSize(){root.style.setProperty('--vv-height',Math.min(innerHeight,screen.availHeight||innerHeight)+'px');root.style.setProperty('--vv-scroll',scrollY+'px')}localSize();window.addEventListener('scroll',localSize,{passive:true});window.addEventListener('resize',localSize);
-window.addEventListener('message',e=>{if(e.source!==parent||!['https://vuslatvakti.fm.tc','http://vuslatvakti.fm.tc'].includes(e.origin))return;const d=e.data;if(d?.type!=='vuslat:viewport'||!Number.isFinite(d.height)||!Number.isFinite(d.top)||d.height<100||d.height>10000||d.top<0||d.top>50000)return;root.style.setProperty('--vv-height',d.height+'px');root.style.setProperty('--vv-scroll',d.top+'px')});})();
+(()=>{
+const style=document.createElement('style');style.textContent=`
+html,body{height:100%;min-height:0;margin:0;overflow:hidden!important}
+#site-content{height:100vh;height:100dvh;min-height:0;overflow-y:auto;overflow-x:hidden;overscroll-behavior-y:contain;scroll-behavior:smooth;scroll-padding-top:24px;-webkit-overflow-scrolling:touch}
+#tema-fotograf,#tema-video,#tema-golge{position:fixed!important;inset:0!important;width:100%!important;height:100%!important}
+#tema-fotograf{background-position:20% center!important;background-size:cover!important;background-repeat:no-repeat!important}
+#tema-video{object-position:20% center!important;opacity:.44!important}
+@media(prefers-reduced-motion:reduce){#site-content{scroll-behavior:auto}}
+`;document.head.append(style);
+})();
