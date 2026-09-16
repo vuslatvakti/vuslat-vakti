@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded',()=>{
  const card=document.createElement('section');card.className='vv-wait';card.hidden=true;
  card.innerHTML='<div class="vv-wait-content"><small>VUSLAT VAKTİ</small><h3>Şimdi kısa bir müzik molası…</h3><p>Şu an canlı yayınımız yok. Güzel şarkılarda, aynı dostlukta yeniden buluşacağız.</p><button type="button">Radyomuzun cıngılını dinle</button><p class="vv-wait-note" role="status">Yayın başladığında bu alan otomatik açılacak.</p></div>';
  const video=document.createElement('video');video.src=window.VUSLAT_CURRENT_THEME?.video||'';video.muted=true;video.defaultMuted=true;video.loop=true;video.playsInline=true;video.preload='none';video.setAttribute('aria-hidden','true');card.prepend(video);box.append(card);
- const audio=document.createElement('audio');audio.src=config.jingleUrl||'vuslat-cingil.mp4';audio.loop=true;audio.preload='none';card.append(audio);
+ const audio=document.createElement('audio');audio.src=config.jingleUrl||'vuslat-cingil.mp3';audio.loop=true;audio.preload='none';card.append(audio);
  const b=card.querySelector('button'),note=card.querySelector('.vv-wait-note');
  function stop(){audio.pause();try{audio.currentTime=0}catch{}b.textContent='Radyomuzun cıngılını dinle'}
  b.onclick=async()=>{if(mode!=='offline'||disposed)return;if(!audio.paused){stop();return}try{await audio.play();if(mode!=='offline'||disposed){stop();return}b.textContent='Cıngılı durdur';note.textContent='Yayın başladığında cıngıl otomatik duracak.'}catch{note.textContent='Cıngıl oynatılamadı. Tekrar deneyebilirsin.'}};
