@@ -1,0 +1,15 @@
+1. Bu paketteki yayin-bekleme.js ve yayin-ayar.js dosyalarını GitHub ana dizinine yükleyin. Aynı isimliler güncellenir. Cloudflare ve fm.tc koduna dokunmayın.
+2. Mevcut vuslat-cingil.mp3 tek başına döngüde çalar. Yayın yoksa otomatik başlatma denenir. Tarayıcı izin vermezse Dinle düğmesine bir kez basılır. Durdur düğmesine basıldıysa kendi kendine yeniden başlamaz.
+3. Birden fazla dosya için ek parçaları örneğin bekleme-2.mp3 ve bekleme-3.mp3 adlarıyla GitHub ana dizinine yükleyin.
+4. yayin-ayar.js dosyasındaki playlist bölümünü şöyle düzenleyin:
+
+  playlist: [
+    "vuslat-cingil.mp3",
+    "bekleme-2.mp3",
+    "bekleme-3.mp3"
+  ],
+
+Diğer satırları koruyun. Dosya adları, büyük/küçük harfler ve uzantılar yüklediğiniz dosyalarla aynı olmalı. MP4 ses dosyaları da listeye kendi uzantısıyla eklenebilir.
+5. Son parçadan sonra ilk parçaya dönülür. Yayın var cevabı alınca ses durur ve Flatcast açılır. Yayın yeniden kapanırsa tarayıcı izin verdiği ölçüde bekleme listesi yeniden başlar.
+6. Sorgulama 30 saniyededir; geçişin algılanması bu süreyi ve ağ gecikmesini bulabilir. Durum sorgusu hata verirse ses durur.
+7. Listeyi değiştirdiğinizde açık sayfayı yenileyin. Güncellemeden sonra Ctrl+F5 kullanın.
