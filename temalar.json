@@ -70,5 +70,56 @@
     "radio": "temalar/galaksi/flatcast.jpg",
     "source": 6,
     "video": "temalar/galaksi/video.mp4"
+  },
+  {
+    "id": "studyo",
+    "name": "Yağmurlu Stüdyo",
+    "base": "#0a1420",
+    "accent": "#7dd3fc",
+    "panel": "#0a1420ed",
+    "bg": "temalar/studyo/site.jpg",
+    "fcx": "temalar/studyo/vuslat-studyo.fcx",
+    "radio": "temalar/studyo/flatcast.jpg",
+    "source": 7,
+    "video": "temalar/studyo/video.mp4"
+  },
+  {
+    "id": "araba",
+    "name": "Gece Yolculuğu",
+    "base": "#17120d",
+    "accent": "#f5a623",
+    "hl": "#ffbf59",
+    "ink": "#fff2dc",
+    "line": "#f5a62359",
+    "panel": "#17120dd1",
+    "bg": "temalar/araba/site.jpg",
+    "fcx": "temalar/araba/vuslat-araba.fcx",
+    "radio": "temalar/araba/flatcast.jpg",
+    "source": 8,
+    "video": "temalar/araba/video.mp4"
+  },
+  {
+    "id": "bahar",
+    "name": "Bahar Rüyası",
+    "base": "#2c4a3e",
+    "accent": "#a8e6cf",
+    "panel": "#2c4a3eed",
+    "bg": "temalar/bahar/site.jpg",
+    "fcx": "temalar/bahar/vuslat-bahar.fcx",
+    "radio": "temalar/bahar/flatcast.jpg",
+    "source": 9,
+    "video": "temalar/bahar/video.mp4"
+  },
+  {
+    "id": "kiraz",
+    "name": "Kiraz Çiçekleri",
+    "base": "#382637",
+    "accent": "#f7bcd7",
+    "panel": "#382637ed",
+    "bg": "temalar/kiraz/site.jpg",
+    "radio": "temalar/kiraz/flatcast.jpg",
+    "fcx": "temalar/kiraz/vuslat-kiraz.fcx",
+    "source": 10,
+    "video": "temalar/kiraz/video.mp4"
   }
 ]
