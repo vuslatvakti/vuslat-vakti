@@ -81,6 +81,7 @@ body{background:#160f0c}body:before{background-image:linear-gradient(90deg,#140d
 </style><script src="temalar.js"></script><script src="aktif-tema.js"></script><script src="animasyon.js"></script><script src="tema-uygula.js"></script><script src="tema-secici.js"></script><script src="yayin-ayar.js"></script><script src="yayin-bekleme.js" defer></script><style>
 #radyo-boyut{font:inherit;font-size:13px;color:inherit;background:#132938;border:1px solid #ffffff70;border-radius:22px;padding:8px 14px;cursor:pointer}
 .radyo-kontroller{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+@media(min-width:1280px){#radyo{width:min(1320px,calc(100vw - 64px));margin-inline:calc((100% - min(1320px,calc(100vw - 64px))) / 2)}}
 #radyo .player.radyo-genis{position:fixed;inset:10px;z-index:150;overflow:auto;overscroll-behavior:contain;background:#142b37!important}
 #radyo .player.radyo-genis .player-top{position:sticky;top:0;z-index:1;background:#142b37}
 </style>
