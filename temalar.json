@@ -133,5 +133,29 @@
     "fcx": "temalar/kugu/vuslat-kugu.fcx",
     "source": 11,
     "video": "temalar/kugu/video.mp4"
+  },
+  {
+    "id": "altin-sahil",
+    "name": "Altın Sahil",
+    "base": "#3b251c",
+    "accent": "#ffd19a",
+    "panel": "#3b251ced",
+    "bg": "temalar/altin-sahil/site.jpg",
+    "radio": "temalar/altin-sahil/flatcast.jpg",
+    "fcx": "temalar/altin-sahil/vuslat-altin-sahil.fcx",
+    "source": 12,
+    "video": "temalar/altin-sahil/video.mp4"
+  },
+  {
+    "id": "ege-gunbatimi",
+    "name": "Ege Gün Batımı",
+    "base": "#3b251c",
+    "accent": "#ffd19a",
+    "panel": "#3b251ced",
+    "bg": "temalar/ege-gunbatimi/site.jpg",
+    "radio": "temalar/ege-gunbatimi/flatcast.jpg",
+    "fcx": "temalar/ege-gunbatimi/vuslat-ege-gunbatimi.fcx",
+    "source": 13,
+    "video": "temalar/ege-gunbatimi/video.mp4"
   }
 ]
