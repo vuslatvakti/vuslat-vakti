@@ -2,13 +2,13 @@
   "format": "FlatcastXTheme",
   "extension": ".fcx",
   "version": "1.3",
-  "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
-  "name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+  "theme_name": "Vuslat Vakti — Sonbahar Gölü",
+  "name": "Vuslat Vakti — Sonbahar Gölü",
   "items": [
     {
       "key": "stage_background",
       "type": "background",
-      "label": "Vuslat Vakti • Deniz • 1200×700",
+      "label": "Vuslat Vakti — Sonbahar Gölü",
       "x": 0,
       "y": 0,
       "width": 1200,
@@ -21,7 +21,7 @@
         "color": "#fff5e6",
         "base_width": 1200,
         "base_height": 700,
-        "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+        "theme_name": "Vuslat Vakti — Sonbahar Gölü",
         "font_family": "Georgia",
         "font_style": "italic"
       }
@@ -41,7 +41,7 @@
         "color": "#fff5e6",
         "base_width": 1200,
         "base_height": 700,
-        "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+        "theme_name": "Vuslat Vakti — Sonbahar Gölü",
         "font_family": "Georgia",
         "font_style": "italic"
       }
@@ -61,7 +61,7 @@
         "color": "#fff5e6",
         "base_width": 1200,
         "base_height": 700,
-        "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+        "theme_name": "Vuslat Vakti — Sonbahar Gölü",
         "font_family": "Georgia",
         "font_style": "italic"
       }
@@ -81,7 +81,7 @@
         "color": "#fff5e6",
         "base_width": 1200,
         "base_height": 700,
-        "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+        "theme_name": "Vuslat Vakti — Sonbahar Gölü",
         "font_family": "Georgia",
         "font_style": "italic"
       }
@@ -101,7 +101,7 @@
         "color": "#fff5e6",
         "base_width": 1200,
         "base_height": 700,
-        "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+        "theme_name": "Vuslat Vakti — Sonbahar Gölü",
         "font_family": "Georgia",
         "font_style": "italic"
       }
@@ -121,7 +121,7 @@
         "color": "#fff5e6",
         "base_width": 1200,
         "base_height": 700,
-        "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+        "theme_name": "Vuslat Vakti — Sonbahar Gölü",
         "font_family": "Georgia",
         "font_style": "italic"
       }
@@ -141,7 +141,7 @@
         "color": "#fff5e6",
         "base_width": 1200,
         "base_height": 700,
-        "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+        "theme_name": "Vuslat Vakti — Sonbahar Gölü",
         "font_family": "Georgia",
         "font_style": "italic"
       }
@@ -161,7 +161,7 @@
         "color": "#fff5e6",
         "base_width": 1200,
         "base_height": 700,
-        "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+        "theme_name": "Vuslat Vakti — Sonbahar Gölü",
         "font_family": "Georgia",
         "font_style": "italic"
       }
@@ -181,7 +181,7 @@
         "color": "#fff5e6",
         "base_width": 1200,
         "base_height": 700,
-        "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+        "theme_name": "Vuslat Vakti — Sonbahar Gölü",
         "font_family": "Georgia",
         "font_style": "italic"
       }
@@ -201,7 +201,7 @@
         "color": "#fff5e6",
         "base_width": 1200,
         "base_height": 700,
-        "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+        "theme_name": "Vuslat Vakti — Sonbahar Gölü",
         "font_family": "Georgia",
         "font_style": "italic"
       }
@@ -221,7 +221,7 @@
         "color": "#fff5e6",
         "base_width": 1200,
         "base_height": 700,
-        "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+        "theme_name": "Vuslat Vakti — Sonbahar Gölü",
         "font_family": "Georgia",
         "font_style": "italic"
       }
@@ -244,7 +244,7 @@
         "segment_image_url": "",
         "vu_mode": "original",
         "orientation": "horizontal",
-        "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+        "theme_name": "Vuslat Vakti — Sonbahar Gölü",
         "font_family": "Georgia",
         "font_style": "italic"
       }
@@ -264,7 +264,7 @@
         "color": "#ffffff",
         "base_width": 1200,
         "base_height": 700,
-        "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+        "theme_name": "Vuslat Vakti — Sonbahar Gölü",
         "background_color": "#102c3d",
         "font_family": "Georgia",
         "font_style": "italic"
@@ -285,7 +285,7 @@
         "color": "#fff5e6",
         "base_width": 1200,
         "base_height": 700,
-        "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+        "theme_name": "Vuslat Vakti — Sonbahar Gölü",
         "font_family": "Georgia",
         "font_style": "italic"
       }
@@ -305,7 +305,7 @@
         "color": "#fff5e6",
         "base_width": 1200,
         "base_height": 700,
-        "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+        "theme_name": "Vuslat Vakti — Sonbahar Gölü",
         "font_family": "Georgia",
         "font_style": "italic"
       }
@@ -326,7 +326,7 @@
         "url": "/",
         "base_width": 1200,
         "base_height": 700,
-        "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+        "theme_name": "Vuslat Vakti — Sonbahar Gölü",
         "font_family": "Georgia",
         "font_style": "italic"
       }
@@ -347,7 +347,7 @@
         "format": "HH:mm",
         "base_width": 1200,
         "base_height": 700,
-        "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+        "theme_name": "Vuslat Vakti — Sonbahar Gölü",
         "font_family": "Georgia",
         "font_style": "italic"
       }
@@ -367,7 +367,7 @@
         "color": "#fff5e6",
         "base_width": 1200,
         "base_height": 700,
-        "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+        "theme_name": "Vuslat Vakti — Sonbahar Gölü",
         "font_family": "Georgia",
         "font_style": "italic"
       }
@@ -387,7 +387,7 @@
         "color": "#fff5e6",
         "base_width": 1200,
         "base_height": 700,
-        "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+        "theme_name": "Vuslat Vakti — Sonbahar Gölü",
         "font_family": "Georgia",
         "font_style": "italic"
       }
@@ -407,7 +407,7 @@
         "color": "#fff5e6",
         "base_width": 1200,
         "base_height": 700,
-        "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+        "theme_name": "Vuslat Vakti — Sonbahar Gölü",
         "font_family": "Georgia",
         "font_style": "italic"
       }
@@ -430,7 +430,7 @@
         "vu_mode": "original",
         "base_width": 1200,
         "base_height": 700,
-        "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+        "theme_name": "Vuslat Vakti — Sonbahar Gölü",
         "font_family": "Georgia",
         "font_style": "italic"
       }
@@ -451,7 +451,7 @@
         "format": "dd.mm.yyyy",
         "base_width": 1200,
         "base_height": 700,
-        "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+        "theme_name": "Vuslat Vakti — Sonbahar Gölü",
         "font_family": "Georgia",
         "font_style": "italic"
       }
@@ -471,7 +471,7 @@
         "color": "#fff5e6",
         "base_width": 1200,
         "base_height": 700,
-        "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+        "theme_name": "Vuslat Vakti — Sonbahar Gölü",
         "font_family": "Georgia",
         "font_style": "italic"
       }
@@ -491,7 +491,7 @@
         "color": "#fff5e6",
         "base_width": 1200,
         "base_height": 700,
-        "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+        "theme_name": "Vuslat Vakti — Sonbahar Gölü",
         "font_family": "Georgia",
         "font_style": "italic"
       }
@@ -511,7 +511,7 @@
         "color": "#fff5e6",
         "base_width": 1200,
         "base_height": 700,
-        "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+        "theme_name": "Vuslat Vakti — Sonbahar Gölü",
         "font_family": "Georgia",
         "font_style": "italic"
       }
@@ -531,7 +531,7 @@
         "color": "#fff5e6",
         "base_width": 1200,
         "base_height": 700,
-        "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+        "theme_name": "Vuslat Vakti — Sonbahar Gölü",
         "font_family": "Georgia",
         "font_style": "italic"
       }
@@ -551,7 +551,7 @@
         "color": "#fff5e6",
         "base_width": 1200,
         "base_height": 700,
-        "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+        "theme_name": "Vuslat Vakti — Sonbahar Gölü",
         "font_family": "Georgia",
         "font_style": "italic"
       }
@@ -571,7 +571,7 @@
         "color": "#fff5e6",
         "base_width": 1200,
         "base_height": 700,
-        "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+        "theme_name": "Vuslat Vakti — Sonbahar Gölü",
         "font_family": "Georgia",
         "font_style": "italic"
       }
@@ -591,7 +591,7 @@
         "color": "#fff5e6",
         "base_width": 1200,
         "base_height": 700,
-        "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+        "theme_name": "Vuslat Vakti — Sonbahar Gölü",
         "font_family": "Georgia",
         "font_style": "italic"
       }
@@ -611,7 +611,7 @@
         "color": "#fff5e6",
         "base_width": 1200,
         "base_height": 700,
-        "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+        "theme_name": "Vuslat Vakti — Sonbahar Gölü",
         "font_family": "Georgia",
         "font_style": "italic"
       }
@@ -631,7 +631,7 @@
         "color": "#fff5e6",
         "base_width": 1200,
         "base_height": 700,
-        "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+        "theme_name": "Vuslat Vakti — Sonbahar Gölü",
         "font_family": "Georgia",
         "font_style": "italic"
       }
@@ -651,7 +651,7 @@
         "color": "#fff5e6",
         "base_width": 1200,
         "base_height": 700,
-        "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+        "theme_name": "Vuslat Vakti — Sonbahar Gölü",
         "font_family": "Georgia",
         "font_style": "italic"
       }
@@ -671,7 +671,7 @@
         "color": "#fff5e6",
         "base_width": 1200,
         "base_height": 700,
-        "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+        "theme_name": "Vuslat Vakti — Sonbahar Gölü",
         "font_family": "Georgia",
         "font_style": "italic"
       }
@@ -691,7 +691,7 @@
         "color": "#fff5e6",
         "base_width": 1200,
         "base_height": 700,
-        "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+        "theme_name": "Vuslat Vakti — Sonbahar Gölü",
         "font_family": "Georgia",
         "font_style": "italic"
       }
@@ -711,7 +711,7 @@
         "color": "#fff5e6",
         "base_width": 1200,
         "base_height": 700,
-        "theme_name": "Vuslat Vakti • Sonbahar Gölü • Video uyumlu",
+        "theme_name": "Vuslat Vakti — Sonbahar Gölü",
         "font_family": "Georgia",
         "font_style": "italic"
       }
