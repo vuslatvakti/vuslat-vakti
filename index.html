@@ -78,7 +78,13 @@ body{background:#160f0c}body:before{background-image:linear-gradient(90deg,#140d
 .welcome,footer,.schedule{background:#1a120d9c}.avatar,.mark{background:#654323;color:#ffedd4}
 .floating-heart,.cursor-spark{color:#e8b77e}.shooting-star{background:linear-gradient(90deg,transparent,#ffe1ae)}.shooting-star:after{color:#ffe1ae}
 .decoration-controls button,#ambient-toggle{background:#2a1d14;color:#fff0db}.player-frame{background:#100e0c}
-</style><script src="temalar.js"></script><script src="aktif-tema.js"></script><script src="animasyon.js"></script><script src="tema-uygula.js"></script><script src="tema-secici.js"></script><script src="yayin-ayar.js"></script><script src="yayin-bekleme.js" defer></script></head>
+</style><script src="temalar.js"></script><script src="aktif-tema.js"></script><script src="animasyon.js"></script><script src="tema-uygula.js"></script><script src="tema-secici.js"></script><script src="yayin-ayar.js"></script><script src="yayin-bekleme.js" defer></script><style>
+#radyo-boyut{font:inherit;font-size:13px;color:inherit;background:#132938;border:1px solid #ffffff70;border-radius:22px;padding:8px 14px;cursor:pointer}
+.radyo-kontroller{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+#radyo .player.radyo-genis{position:fixed;inset:10px;z-index:150;overflow:auto;overscroll-behavior:contain;background:#142b37!important}
+#radyo .player.radyo-genis .player-top{position:sticky;top:0;z-index:1;background:#142b37}
+</style>
+</head>
 <body><div id="site-content" style="display:flow-root;width:100%;">
 
 <a href="#icerik" class="skip">İçeriğe geç</a>
@@ -108,7 +114,7 @@ body{background:#160f0c}body:before{background-image:linear-gradient(90deg,#140d
     <section id="radyo" aria-labelledby="radio-title">
       <div class="section-head"><div><span class="kicker">SESİ BİRAZ AÇ</span><h2 id="radio-title">Radyo &amp; sohbet</h2></div><p>Şarkılara eşlik et, sohbete katıl.<br>En güzel yer, birlikte olduğumuz yer.</p></div>
       <div class="player">
-        <div class="player-top"><div><strong>Vuslat Vakti</strong><small>Yayın ve sohbet odası</small></div><a href="https://www.flatcastx.com/sid/2046" target="_blank" rel="noopener noreferrer">Ayrı sekmede aç ↗</a></div>
+        <div class="player-top"><div><strong>Vuslat Vakti</strong><small>Yayın ve sohbet odası</small></div><div class="radyo-kontroller"><button type="button" id="radyo-boyut" aria-pressed="false">Geniş görünüm</button><a href="https://www.flatcastx.com/sid/2046" target="_blank" rel="noopener noreferrer">Ayrı sekmede aç ↗</a></div></div>
         
         <div class="player-frame">
           <!-- FLATCAST: Vuslat Vakti SID 2046. Adres degisirse asagidaki baglantiyi da guncelleyin. -->
@@ -278,4 +284,22 @@ input,textarea,[contenteditable]:not([contenteditable="false"]){-webkit-user-sel
   });
 })();
 </script>
+<script>
+(()=>{
+  const button=document.getElementById('radyo-boyut');
+  const player=button.closest('.player');
+  const key='vuslat-radyo-genis';
+  function setWide(wide){
+    player.classList.toggle('radyo-genis',wide);
+    button.setAttribute('aria-pressed',String(wide));
+    button.textContent=wide?'Normal görünüm':'Geniş görünüm';
+    try{localStorage.setItem(key,wide?'1':'0')}catch{}
+  }
+  button.addEventListener('click',()=>setWide(!player.classList.contains('radyo-genis')));
+  document.addEventListener('keydown',event=>{
+    if(event.key==='Escape'&&player.classList.contains('radyo-genis'))setWide(false);
+  });
+  try{if(localStorage.getItem(key)==='1')setWide(true)}catch{}
+})();
+</script>
 </body></html>
