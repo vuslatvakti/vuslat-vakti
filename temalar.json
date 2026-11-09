@@ -121,5 +121,17 @@
     "fcx": "temalar/kiraz/vuslat-kiraz.fcx",
     "source": 10,
     "video": "temalar/kiraz/video.mp4"
+  },
+  {
+    "id": "kugu",
+    "name": "Kuğulu Göl",
+    "base": "#173942",
+    "accent": "#afe5e4",
+    "panel": "#173942ed",
+    "bg": "temalar/kugu/site.jpg",
+    "radio": "temalar/kugu/flatcast.jpg",
+    "fcx": "temalar/kugu/vuslat-kugu.fcx",
+    "source": 11,
+    "video": "temalar/kugu/video.mp4"
   }
 ]
