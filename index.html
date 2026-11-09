@@ -160,6 +160,9 @@ body{background:#160f0c}body:before{background-image:linear-gradient(90deg,#140d
   .hero > :first-child{grid-column:2;min-width:0}
   #djler,.lower .community{width:min(58%,600px);margin-inline-start:auto}
 }
+#radyo{margin-block-start:clamp(140px,33vh,360px)}
+#sag-tik-notu{position:fixed;right:16px;bottom:72px;z-index:250;max-width:min(340px,calc(100% - 32px));padding:12px 16px;border-radius:14px;background:#132938;color:#fff;box-shadow:0 8px 28px #0006}
+#sag-tik-notu:empty{display:none}
 #radyo-boyut{font:inherit;font-size:13px;color:inherit;background:#132938;border:1px solid #ffffff70;border-radius:22px;padding:8px 14px;cursor:pointer}
 .radyo-kontroller{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
 @media(min-width:1280px){#radyo{width:min(1320px,calc(100vw - 64px));margin-inline:calc((100% - min(1320px,calc(100vw - 64px))) / 2)}}
@@ -516,10 +519,18 @@ input,textarea,[contenteditable]:not([contenteditable="false"]){-webkit-user-sel
 
   }
 
+  const note=document.createElement('div');
+  note.id='sag-tik-notu';
+  note.setAttribute('role','status');
+  document.body.append(note);
+  let noteTimer;
+
   document.addEventListener('contextmenu', event => {
-
-    if (!editing(event)) event.preventDefault();
-
+    if (editing(event)) return;
+    event.preventDefault();
+    note.textContent='🎙️ Frekansı kurcalayan biri var! Hazır gelmişken DJ’e bir şarkı isteği bırak. 😉';
+    clearTimeout(noteTimer);
+    noteTimer=setTimeout(()=>{note.textContent=''},4200);
   });
 
   document.addEventListener('copy', event => {
